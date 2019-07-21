@@ -3,7 +3,7 @@
         <div class="todo-content ">{{content}}</div>
         <img class="is-important" v-if="isImportant" src="../images/icon.png" alt="">
         <label for="todo-done">
-        <input type="checkbox" v-model="isDone" id="todo-done" class="todo-done">
+            <input type="checkbox" v-model="isDone" id="todo-done" class="todo-done">
         </label>
 
     </div>

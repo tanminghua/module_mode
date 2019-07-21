@@ -43,14 +43,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/todo/add/todo_add.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            <state relative-caret-position="144">
+              <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
               <folding>
                 <element signature="e#254#298#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/todo/todo_item.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -89,6 +98,9 @@
       <replace>translateY</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -109,7 +121,6 @@
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/todo/js/todo_db.js" />
         <option value="$PROJECT_DIR$/src/todo/todu_list.vue" />
-        <option value="$PROJECT_DIR$/src/todo/todo_item.vue" />
         <option value="$PROJECT_DIR$/src/todo/todo_button.vue" />
         <option value="$PROJECT_DIR$/src/todo/todo_list.vue" />
         <option value="$PROJECT_DIR$/src/App.vue" />
@@ -118,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/todo/add/todo-type-card.vue" />
         <option value="$PROJECT_DIR$/src/todo/js/todo_service.js" />
         <option value="$PROJECT_DIR$/src/todo/add/todo_add.vue" />
+        <option value="$PROJECT_DIR$/src/todo/todo_item.vue" />
       </list>
     </option>
   </component>
@@ -126,6 +138,7 @@
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -215,12 +228,12 @@
       <workItem from="1563371868166" duration="1232000" />
       <workItem from="1563502983115" duration="1355000" />
       <workItem from="1563504813242" duration="599000" />
-      <workItem from="1563606702403" duration="38887000" />
+      <workItem from="1563606702403" duration="39233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42073000" />
+    <option name="totallyTimeSpent" value="42419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,13 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/todo/todo_item.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="80" column="38" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -423,11 +429,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/todo/add/todo_add.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        <state relative-caret-position="144">
+          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
           <folding>
             <element signature="e#254#298#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/todo/todo_item.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
