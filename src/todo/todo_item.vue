@@ -5,7 +5,6 @@
         <label for="todo-done">
             <input type="checkbox" v-model="isDone" id="todo-done" class="todo-done">
         </label>
-
     </div>
 </template>
 

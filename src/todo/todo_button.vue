@@ -1,12 +1,31 @@
 <template>
     <div>
-        <button class="todo-button"></button>
+        <button class="todo-button" :style="bgColorObject" @click="doSubmit"></button>
     </div>
 </template>
 
 <script>
     export default {
-        name: "todo_button"
+        name: "todo_button",
+        props: {
+            theme: {
+                type: String,
+                default: 'chocolate'
+            }
+        },
+        computed: {
+            bgColorObject() {
+                return {
+                    backgroundColor: this.theme,
+                    borderColor: this.theme
+                }
+            }
+        },
+        methods: {
+            doSubmit() {
+                this.$emit('click')
+            }
+        }
     }
 </script>
 
@@ -15,11 +34,8 @@
         border-radius: .2rem;
         height: 1rem;
         width: 1rem;
-        background-color: #ffffff;
-        border: .1rem solid chocolate;
-        right: .5rem;
-        bottom: .5rem;
-        position: fixed;
+        border: .1rem solid;
+        position: relative;
         box-shadow: #999 -.05rem .2rem .2rem;
         outline: none;
 
@@ -37,7 +53,7 @@
             border-radius: .1rem;
             height: .1rem;
             width: .6rem;
-            background-color: chocolate;
+            background-color: #fff;
             left: 50%;
             top: 50%;
             -webkit-transform: translate(-50%, -50%);
@@ -45,6 +61,7 @@
             -ms-transform: translate(-50%, -50%);
             -o-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+
         }
 
         &::after {
@@ -53,7 +70,7 @@
             border-radius: .1rem;
             width: .1rem;
             height: .6rem;
-            background-color: chocolate;
+            background-color: #fff;
             left: 50%;
             top: 50%;
             -webkit-transform: translate(-50%, -50%);
@@ -61,6 +78,7 @@
             -ms-transform: translate(-50%, -50%);
             -o-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+
         }
     }
 </style>

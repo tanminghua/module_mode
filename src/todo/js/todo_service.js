@@ -21,10 +21,10 @@ let data = [
 ];
 
 let typeEnum = [
-    ['To Do', 'chocolate'],
-    ['Movie', 'cadetblue'],
-    ['Job', 'cornflowerblue'],
-    ['Book', 'indianred'],
+    ['我要...', 'chocolate'],
+    ['要看的电影', 'cadetblue'],
+    ['要做的工作', 'cornflowerblue'],
+    ['要阅读的书', 'indianred'],
 ];
 
 let map = new Map(data);

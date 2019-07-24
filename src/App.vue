@@ -5,9 +5,11 @@
                 :type="card[0]"
                 :todos="card[1]"
         ></todo-list>
-        <todo-button></todo-button>
+        <todo-button class="vue-bottom"></todo-button>
 
-        <todo-add></todo-add>
+        <keep-alive>
+            <component is="todo-add" @hide=""></component>
+        </keep-alive>
     </div>
 </template>
 
@@ -72,6 +74,12 @@
 
         & > .todo-list {
             margin-bottom: 1.2rem;
+        }
+
+        .vue-bottom {
+            right: .5rem;
+            bottom: .5rem;
+            position: fixed;
         }
     }
 
